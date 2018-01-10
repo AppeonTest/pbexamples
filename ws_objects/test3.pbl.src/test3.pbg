@@ -3,5 +3,7 @@
  "test3.pbl" "";
 @end;
 @begin Objects 
+ "m_t1.srm" "test3.pbl";
+ "w_a1.srw" "test3.pbl";
  "w_test3_1.srw" "test3.pbl";
 @end;
