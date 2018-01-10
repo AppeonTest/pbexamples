@@ -1,0 +1,16 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "add_test1.pbl" "";
+@end;
+@begin Objects 
+ "d_rt1.srd" "add_test1.pbl";
+ "f1.srf" "add_test1.pbl";
+ "m_1.srm" "add_test1.pbl";
+ "m_2.srm" "add_test1.pbl";
+ "n_1.sru" "add_test1.pbl";
+ "n_2.sru" "add_test1.pbl";
+ "uo_1.sru" "add_test1.pbl";
+ "w_1.srw" "add_test1.pbl";
+ "w_2.srw" "add_test1.pbl";
+ "w_a.srw" "add_test1.pbl";
+@end;

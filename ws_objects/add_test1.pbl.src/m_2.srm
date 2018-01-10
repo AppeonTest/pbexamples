@@ -1,0 +1,67 @@
+﻿$PBExportHeader$m_2.srm
+forward
+global type m_2 from m_1
+end type
+type m_exit from menu within m_2
+end type
+global type m_2 from m_1
+m_exit m_exit
+end type
+end forward
+
+global type m_2 from m_1
+m_exit m_exit
+end type
+global m_2 m_2
+
+on m_2.create
+m_2=this
+call super::create
+this.m_exit=create m_exit
+this.Item[UpperBound(this.Item)+1]=this.m_exit
+end on
+
+on m_2.destroy
+call super::destroy
+destroy(this.m_exit)
+end on
+
+type m_file from m_1`m_file within m_2
+end type
+
+on m_file.create
+call super::create
+end on
+
+on m_file.destroy
+call super::destroy
+end on
+
+type m_exit from menu within m_2
+end type
+
+on m_exit.create
+call super::create
+this.text = "exit"
+this.toolbaritemname = "addwatch5!"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+

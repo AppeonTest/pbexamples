@@ -1,0 +1,9 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "add_test2.pbl" "";
+@end;
+@begin Objects 
+ "soapconnection.sru" "add_test2.pbl";
+ "soapexception.sru" "add_test2.pbl";
+ "w_b.srw" "add_test2.pbl";
+@end;
