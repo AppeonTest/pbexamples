@@ -16,19 +16,22 @@ end type
 global add6 add6
 
 on add6.create
-appname = "add6"
-message = create message
-sqlca = create transaction
-sqlda = create dynamicdescriptionarea
-sqlsa = create dynamicstagingarea
-error = create error
+appname="add6"
+message=create message
+sqlca=create transaction
+sqlda=create dynamicdescriptionarea
+sqlsa=create dynamicstagingarea
+error=create error
 end on
 
 on add6.destroy
-destroy( sqlca )
-destroy( sqlda )
-destroy( sqlsa )
-destroy( error )
-destroy( message )
+destroy(sqlca)
+destroy(sqlda)
+destroy(sqlsa)
+destroy(error)
+destroy(message)
 end on
+
+event open;//aaa
+end event
 
