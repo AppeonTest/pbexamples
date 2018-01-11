@@ -3,11 +3,6 @@ Save Format v3.0(19990112)
 @end;
 @begin Targets
  0 "PB Examples.pbt";
- 1 "add2.pbt";
- 2 "add3.pbt";
- 3 "add4.pbt";
- 4 "add5.pbt";
- 5 "add6.pbt";
 @end;
-DefaultTarget "add6.pbt";
-DefaultRemoteTarget "add6.pbt";
+DefaultTarget "PB Examples.pbt";
+DefaultRemoteTarget "PB Examples.pbt";
